@@ -27,4 +27,4 @@ def run(input_csv, output_csv, dim):
 
 if __name__ == "__main__":
     run("data/public_data.csv", "agglo_two_stage_public.csv", dim=4)
-    #run("data/private_data.csv", "agglo_two_stage_private.csv", dim=6)
+    run("data/private_data.csv", "agglo_two_stage_private.csv", dim=6)
